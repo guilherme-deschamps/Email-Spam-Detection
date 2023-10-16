@@ -25,6 +25,7 @@ In this repository, I am implementing a small project to practice NLP, specifica
 
 ## To-do
 
- * Implement a Flask application with end-points:
-   * Receives a phrase and returns the vector of tokens after tokenization / lower casing / lemmatization
-   * Receives a e-mail body and returns whether it is or not a spam
+ - [ ] Implement a Flask application with end-points:
+   - [x] Receives a phrase and returns the vector of tokens after tokenization / lower casing / lemmatization
+   - [ ] Receives a e-mail body and returns whether it is or not a spam
+ - [ ] Update README.md to new Flask end-points, with examples for cURL (show for Linux/Windows)
