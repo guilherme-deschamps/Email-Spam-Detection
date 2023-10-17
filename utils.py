@@ -9,10 +9,10 @@ lemmatizer = WordNetLemmatizer()
 stopwords = stopwords.words('english')
 
 # Load the features from the file
-with open('features.pkl', 'rb') as file:
+with open('files/features.pkl', 'rb') as file:
     features = pickle.load(file)
 # Load the classifier from the file
-with open('random_forest_classifier.pkl', 'rb') as file:
+with open('files/random_forest_classifier.pkl', 'rb') as file:
     rf = pickle.load(file)
 
 token_to_index_mapping = {t:i for t, i in zip(features, range(len(features)))}
